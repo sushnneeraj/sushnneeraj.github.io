@@ -1,0 +1,107 @@
+*{
+  font-family: "Oxygen",sans-serif ;
+  box-sizing: border-box;
+}
+/* I have used COOLORS(color contrast checker)for the project */
+.menu-container{
+  width: 100%;
+  color: black;
+  background-color: #E9EEF3;
+}
+.text-center{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+.flex-container {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center; 
+  width: 100%;
+  max-width: 90%;
+   margin: 0 auto;
+  flex-wrap: nowrap;
+  padding-bottom: 80px;
+  
+  }
+.heading{
+  width:100px;
+  position: relative;
+  float:right;
+  margin-top:-18px;
+  margin-right:-18px;
+  color: black;
+  border: 2px solid black; 
+  font-size: 20px;
+  text-align: center;
+}
+ .flex-container > div {
+     margin: 10px;
+    padding: 16px;
+    font-size: 16px;
+    }
+    .chicken{
+    background-color:#b2c9e3;
+    color: black;
+    }
+     
+   .beef{
+    background-color: #0DCBD5;
+    color: #000F1D;
+    }
+  .sushi{
+    background-color: #78c5b5;
+    color: #0A1118;
+    }
+    .color .sushi{
+      background-color: rgb(169, 221, 206);
+
+    }
+    .card-text{
+      clear: right;
+    }
+    #food-1{
+      background-color: rgb(133, 171, 214);
+    }
+    #food-2{
+      background-color: rgb(162, 222, 215);
+    }
+    #food-3{
+      background-color: rgb(196, 232, 210);
+    }
+    .chicken, .beef, .sushi{
+      border: 2px solid black;
+    }
+
+  
+  @media screen and (min-width:767px) and (max-width: 992px) {
+    .flex-container .chicken,.flex-container .beef{
+      flex-basis:50%;
+       }
+      .flex-container .sushi{
+        flex-basis: 100%;
+    }
+    .flex-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: start;
+    }
+    .flex-container>div{
+      margin: 0;
+    }
+    }
+  @media screen and (max-width: 767px) {
+    .flex-container{
+      width: 100%;
+      flex-direction: column;
+    }
+    .chicken, .beef, .sushi{
+      width: 100%;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+    }
+  }
+
+
