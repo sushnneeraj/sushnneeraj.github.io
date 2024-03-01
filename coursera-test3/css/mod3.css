@@ -14,7 +14,7 @@ nav {
 }
 #chicken{
     background-color: rgb(202, 233, 241);
-    Padding: 20px; 
+    padding: 20px; 
 }
 #beef{
     background-color: #E2ECEE;
@@ -27,6 +27,8 @@ nav {
 .Food{
     font-size: 18px;
 }
-/* .row{
-    background-color: #75D0D3;
-} */
+@media (max-width:768px) {
+.container {
+    max-width:80%;
+}
+}
