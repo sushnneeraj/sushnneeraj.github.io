@@ -1,0 +1,32 @@
+body{
+    
+    color:black;
+    font-family: "Roboto",sans-serif;
+    color:#3C3658;
+    
+}
+    .navbar-default .navbar-collapse{
+    border-radius: 0px;
+    border: 0px;
+}
+nav {
+    background-color: rgb(1, 27, 27);
+}
+#chicken{
+    background-color: rgb(202, 233, 241);
+    Padding: 20px; 
+}
+#beef{
+    background-color: #E2ECEE;
+    padding: 20px;
+}
+#sushi{
+  background-color:#c4dee0;
+  padding: 20px;
+}
+.Food{
+    font-size: 18px;
+}
+/* .row{
+    background-color: #75D0D3;
+} */
